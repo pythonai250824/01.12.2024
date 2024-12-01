@@ -10,9 +10,17 @@ iterate over all of the words:
     if word already exist in the dict then + 1 its counter
    final result:  { "danny": 2, "apple": 1}
     { "danny": 2, "apple": 1 }
+
     -- [("apple", 1), ("danny", 2)]
     result = []
     for key, value in dict_counter.items():
       if value > 1:
         result.append(key)
 '''
+
+
+
+
+
+
+
